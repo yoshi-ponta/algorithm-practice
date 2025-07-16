@@ -1,3 +1,4 @@
+# 配列とは、複数のデータを格納できるもの
 animals = ["cat", "dog", "lion", "elephant", "panda"]
 animals.each_with_index do |animals,index|
     puts "#{index}: #{animals}"
