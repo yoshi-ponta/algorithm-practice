@@ -5,8 +5,16 @@
 
 # animal
 
+# def animal(name)
+#     puts "#{name}が鳴きました"
+# end
+
+# animal("猫")
+
+
+#戻り値のあるメソッド
 def animal(name)
-    puts "#{name}が鳴きました"
+    return "#{name}が鳴きました"
 end
 
-animal("猫")
+p animal("犬")
