@@ -18,3 +18,13 @@ if number == 300
 else
   puts "ざんねん！"
 end
+
+number = rand(1..5)
+puts "あなたの順位は#{number}位です"
+if number == 1
+ puts "おめでとう！"
+elsif number == 2
+ puts "あと少し！"# １位だった時の処理
+else
+ puts "よくがんばったね"    # それ以外だったときの処理
+end
