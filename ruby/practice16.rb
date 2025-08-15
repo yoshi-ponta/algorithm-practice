@@ -26,3 +26,9 @@ if flag
 end
 
 p flag
+
+# 文字列を数値に変換する
+number = "0.08"
+p number.to_f
+p number.to_i
+p number.to_s
