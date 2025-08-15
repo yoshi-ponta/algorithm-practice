@@ -32,3 +32,9 @@ number = "0.08"
 p number.to_f
 p number.to_i
 p number.to_s
+
+# 肉の量り売り
+price = 128
+weight = 300
+amount = ((price / 100.0) * weight).to_i
+puts "100グラム#{price}円の肉、#{weight}グラムは、#{amount}円です。"
