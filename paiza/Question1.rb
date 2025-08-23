@@ -26,3 +26,11 @@ if (A * B) <= C
 else
     puts "NO"
 end
+
+#問5
+n = gets.to_i
+if n == 7
+    puts "Yes"
+else
+    puts "No"
+end
