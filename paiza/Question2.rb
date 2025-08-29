@@ -27,3 +27,5 @@ a, b = gets.split.map(&:to_i)
 puts a + b
 
 #問5
+nums = 5.times.map { gets.to_i }
+puts nums.min
