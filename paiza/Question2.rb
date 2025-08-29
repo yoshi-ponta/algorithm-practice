@@ -17,4 +17,11 @@ elsif i % 3 == 0
   end
 end
 
+#問3
+a = gets.to_i
+b = gets.to_i
+puts a * b
 
+#問4
+a, b = gets.split.map(&:to_i)
+puts a + b
