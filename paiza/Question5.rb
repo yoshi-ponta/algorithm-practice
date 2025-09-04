@@ -9,3 +9,5 @@ num = STDIN.read.split.map(&:to_i)
 num.each_slice(3) do |i|
 puts i.join(" ")
 end
+
+#3
