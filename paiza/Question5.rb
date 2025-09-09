@@ -11,3 +11,8 @@ puts i.join(" ")
 end
 
 #3
+(1..9).each do |i|
+  puts (1..9).map { |j| i * j }.join(' ')
+end
+
+#4
