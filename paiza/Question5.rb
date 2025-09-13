@@ -16,3 +16,12 @@ end
 end
 
 #4
+n = STDIN.gets.to_i
+(1..n).each do |i|
+a = (1..n).map{|j| i * j }
+puts a.join(" ")
+end
+
+#5
+s = gets
+puts s
