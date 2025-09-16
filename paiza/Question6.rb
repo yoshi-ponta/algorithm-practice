@@ -13,3 +13,9 @@ puts s[-1]
   #absで絶対値、to_sで文字列に変換、lengthで桁数を取得
 n = gets.to_i
 puts n.abs.to_s.length
+
+#4
+n = gets.to_i
+h = n / 2
+puts (1..h).to_a.join(' ')
+puts (h+1..n).to_a.join(' ')
