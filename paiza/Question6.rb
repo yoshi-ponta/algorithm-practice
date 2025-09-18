@@ -22,3 +22,6 @@ puts (h+1..n).to_a.join(' ')
 
 #5
 puts STUDIN.read.sprit.size
+
+#6
+puts STDIN.read.split.join("\n")
