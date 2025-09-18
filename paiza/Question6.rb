@@ -19,3 +19,6 @@ n = gets.to_i
 h = n / 2
 puts (1..h).to_a.join(' ')
 puts (h+1..n).to_a.join(' ')
+
+#5
+puts STUDIN.read.sprit.size
