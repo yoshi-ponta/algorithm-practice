@@ -66,3 +66,52 @@ exam = {subject: "Math", score: 80}
 
 puts "#{exam[:subject]}: #{exam[:score]}点"
 
+
+
+exam = {subject: "Math", score: 80}
+
+# キー「:grade」の値を出力してください
+puts exam[:grade]
+
+# nilを出力してください
+puts nil
+
+
+exam = {subject: "Math"}
+
+# 条件式にキー「:score」の値を使うif文をつくってください
+if exam[:score]
+  puts "#{exam[:subject]}の結果は#{exam[:score]}点です"
+else
+  puts "#{exam[:subject]}の結果は分かりません"
+end
+
+
+# 要素がハッシュの配列を作成してください
+exams = [
+  {subject: "Math", score: 80},
+  {subject: "Science", score: 55}
+]
+
+# インデックス番号が1の要素の値を出力してください
+puts exams[1]
+
+
+exams = [
+  {subject: "Math", score: 80},
+  {subject: "Science", score: 55}
+]
+
+# インデックス番号が1の要素の、キーが「:score」の値を出力してください
+puts exams[1][:score]
+
+
+exams = [
+  {subject: "Math", score: 80},
+  {subject: "Science", score: 55}
+]
+
+# each文を用いて、要素ごとに「○○の結果は△△点です」と出力してください
+exams.each do |exam|
+  puts "#{exam[:subject]}の結果は#{exam[:score]}点です"
+end
